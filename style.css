@@ -1,0 +1,8 @@
+@font-face {
+  font-family: gilroy;
+  src: url(/Gilroy-Bold.woff);
+}
+* {
+  font-family: gilroy;
+  flood-color: #1b24339b;
+}
