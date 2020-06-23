@@ -17,24 +17,28 @@
 
   <body>
     <nav class="res-nav md:hidden">
-      <div class="flex justify-between flex-end">
+      <div class="flex justify-between items-between">
         <a
           class="flex title-font font-medium items-start text-gray-900 md:mb-0 pt-3 pl-6"
         >
           <img
-            src="MAMTA ADVERTISING LOGO 2.png"
+            src="MAMTA-ADVERTISING2.png"
             alt="Mamta Advtg Logo"
             style="width: 3.5rem;"
           />
+          <span class="ml-3 mt-1 text-xl"
+            ><span style="color: #163bce;">M</span>amta
+            <span style="color: #163bce;">A</span>dvertising</span
+          >
           <!-- <span class="ml-3 text-xl">Mamta Advertising</span> -->
         </a>
         <button
-          class="nav-toggler focus:outline-none"
+          class="nav-toggler focus:outline-none noSelect"
           data-target="#navigation"
         >
           <span
-            class="material-icons mt-3 mr-6"
-            style="font-size: 2.3rem; color: #1b2433; cursor:default"
+            class="material-icons mt-3 mr-6 noSelect"
+            style="font-size: 2.3rem; color: #1b2433; outline: none;"
           >
             menu
           </span>
@@ -42,9 +46,26 @@
       </div>
 
       <div class="links hidden" id="navigation">
-        <a href="#" class="block">Home</a>
-        <a href="#" class="block">Home</a>
-        <a href="#" class="block">Home</a>
+        <a href="#" class="block px-10 py-4 mx-auto w-3">Home</a>
+        <a href="#" class="block px-10 py-4 mx-auto w-3">Home</a>
+        <a href="#" class="block px-10 py-4 mx-auto w-">Home</a>
+        <button
+          class="block items-center border-0 px-3 py-1 mx-auto focus:outline-none hover:rounded text-base mt-4 md:mt-0 w-60"
+          style="background-color: #1e4afbea; color: white;"
+        >
+          Get in touch
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 inline-flex"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
       </div>
     </nav>
 
@@ -56,9 +77,9 @@
           class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <img
-            src="MAMTA ADVERTISING LOGO 2.png"
+            src="/MAMTA-ADVERTISING2.png"
             alt="Mamta Advtg Logo"
-            style="width: 3.5rem;"
+            style="width: 3rem;"
           />
           <span class="ml-3 text-xl">Mamta Advertising</span>
         </a>
@@ -95,8 +116,10 @@
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <img src="hero.png" alt="" />
+        <div
+          class="order-last md:order-first mt-12 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"
+        >
+          <img src="/hero.png" alt="" />
         </div>
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
